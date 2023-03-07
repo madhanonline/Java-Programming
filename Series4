@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Series4
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        float pre=0.5f;
+        for(int i=1;i<=n;i++){
+            System.out.print(pre+ " ");
+            pre=pre*3;
+        }
+    }
+    {
+        //Write your code
+    }
+}
