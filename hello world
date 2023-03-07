@@ -1,0 +1,9 @@
+# Java-Programming
+In this repository i did java programs including operators,control structures,patterns,strings and series programs
+class hello world
+{
+public static void main(String[] args)
+{
+System.out.print("hello  world");
+}
+}
