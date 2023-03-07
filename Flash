@@ -1,0 +1,18 @@
+import java.util.*;
+public class Flash
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        double x1=sc.nextInt();
+        double y1=sc.nextInt();
+        double x2=sc.nextInt();
+        double y2=sc.nextInt();
+        double x3=sc.nextInt();
+        double y3=sc.nextInt();
+        double t=(x1+x2+x3)/3;
+        double tt=(y1+y2+y3)/3;
+        System.out.printf("(%.1f,%.1f)",t,tt);
+        //write your code
+    }
+}
