@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class Same
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int m=sc.nextInt();
+        int a[]=new int[n];
+        int b[]=new int[m];
+        int x=0,x1=0;
+        for(int i=0;i<n;i++)
+        {
+            a[i]=sc.nextInt();
+             x=x+a[i];
+        }
+        for(int j=0;j<m;j++)
+        {
+            b[j]=sc.nextInt();
+            x1=x1+b[j];
+        }
+        if(x==x1 && n==m)
+        {
+            System.out.println("Same");
+        }
+        else
+        {
+            System.out.println("Not Same");
+        }
+    }
+}
